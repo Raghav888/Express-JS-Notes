@@ -1,0 +1,3 @@
+app.verb("route",callbackfunction)
+
+the callbackfunction takes two arguement => (request, response)
