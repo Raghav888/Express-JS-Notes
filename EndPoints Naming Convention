@@ -1,0 +1,7 @@
+1. Endpoint name should be Noun, Plural, Predictable and consistent
+2. Avoid Techincal names in endpoints name
+3. Follow Hiearchical naming convention
+    customers/id
+    customers/id/address
+4. If endpoints in sentences sounds good, that means our API design is good
+ex: customers/id -> Get all customers ids
