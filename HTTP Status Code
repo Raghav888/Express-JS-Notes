@@ -1,0 +1,4 @@
+2xx - Success
+3xx- redirection
+4xx - client side error
+5xx Server side error
