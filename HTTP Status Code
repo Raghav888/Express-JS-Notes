@@ -2,3 +2,6 @@
 3xx- redirection
 4xx - client side error
 5xx Server side error
+
+
+While designing API we should take that we are returning right error code.
