@@ -1,0 +1,5 @@
+CDN provides all view  files to client.
+Then client sends api request to server. Server here is different that CDN.
+CDN is only used for providing view/template files without data.
+Request to server is made by client after getting all data from CDN.
+Server gets data from DB and sends it to client.
