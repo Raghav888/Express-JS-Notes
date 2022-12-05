@@ -1,3 +1,10 @@
 app.verb("route",callbackfunction)
 
 the callbackfunction takes two arguement => (request, response)
+
+
+app.get('/',(req,res)=>{
+res.send() // This will send HTML
+
+res.json()// will send json data
+})
