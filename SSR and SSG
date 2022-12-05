@@ -1,0 +1,9 @@
+SSR: Server Side Rendering
+
+In this server sends the whole HTML Code as a string.
+And that string is converted to HTML again and rendered on screen
+Express. js supports SSR
+
+In SSR, the server gets data from backend and then add it to HTML and then send it to client
+
+IN SSG (Static site generator), it only have hard coded HTML, no database. It send that HTML as string to client,

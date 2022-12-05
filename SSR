@@ -1,5 +1,0 @@
-SSR: Server Side Rendering
-
-In this server sends the whole HTML Code as a string.
-And that string is converted to HTML again and rendered on screen
-Express. js supports SSR
