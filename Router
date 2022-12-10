@@ -1,4 +1,5 @@
 Router is used to structure our code in different file and then call them all in one single file.
+It helps to write modular code
 
 https://expressjs.com/en/guide/routing.html
 express.Router
