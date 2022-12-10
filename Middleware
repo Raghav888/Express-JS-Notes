@@ -1,0 +1,2 @@
+Middleware, processes the data receveid from FE and then call next().
+It will again do some operation on data receveied. And when there is no next(), then it will do res.json()
