@@ -1,0 +1,27 @@
+semver- Semnatic versioning
+Its universla agreement that all software will follow semver.
+Ex: 5.2.18
+In above example, 5 is major version, 2 is minor version, 18 is patch.
+Patch version is changed, when bugs are fixed
+Minor version is changed when new feature is added but it is compatiable with previous vrsion
+Major Version is changed when new features is added and its compatiability also changes. In it we dont gurantee that the new version will work as same.
+
+
+Now if your package depends on external package then we need to specify which package we need.
+
+Exact version: 5.12.1
+Greater than : >5.12.1
+Compatible changes: ^5.12.1 here minor and patch version will changed as per compatability
+Minor level change: ~5.12.1 here only patch version will changed as per compatability.
+
+
+Pre Release version Sequence:
+
+1.0.0 aplha
+1.0.0 alpha.1
+1.0.0 beta
+1.0.0 beta.2
+1.0.0 beta.11
+1.0.0 r.c.1 - release candidate
+1.0.0
+
